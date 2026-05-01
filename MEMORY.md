@@ -1,5 +1,5 @@
 # MEMORY.md — 蝦趴獅長期記憶
-> 最後更新：2026-04-29
+> 最後更新：2026-05-01
 
 ## 👤 老闆
 - 姓名：樊業萱（業萱）
@@ -10,7 +10,8 @@
 ## ⚙️ 系統現況
 - 部署：Zeabur（Linode 大阪 4GB RAM）
 - workspace：/home/node/.openclaw/workspace/
-- 主模型：zeabur-ai/gemini-2.5-flash
+- 主模型：zeabur-ai/gemini-2.5-pro
+- 更換方式：修改 openclaw.json 的 models.primary，然後執行 gateway(action='restart')
 - 控制台：https://lions-pride.zeabur.app
 - 知識庫：github.com/fanyayajoin-lion/LionBrain
 
@@ -28,3 +29,4 @@
 - 所有產出備份到 GitHub
 - 繁體中文，不廢話，結論先行
 - 調取知識庫順序：MEMORY.md → memory/ → LionBrain
+- 定時任務數據源：如無明確指示，依當前上下文合理界定「今日」範圍。
